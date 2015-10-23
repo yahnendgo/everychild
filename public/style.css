@@ -134,3 +134,13 @@ z-index: -10;
 	margin-right: 12px;
 	margin-bottom: 2px; 
 }
+
+.box {
+	font-size: 20px;
+	font-family: arial Narrow
+}
+
+#textbox {
+	height: 400px;
+	width: 500px;
+}

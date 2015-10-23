@@ -32,8 +32,8 @@ get '/about' do
 	erb :about 
 end 
 
-get '/contact' do 
-	erb :contact 
+get '/contactus' do 
+	erb :contactus 
 end
 
 post '/contact' do
