@@ -1,22 +1,33 @@
-<!-- #contact form  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>About</h1>
+</head>
+<body>
+	<p> If you have anymore questions please feel free to email us or sign up for more information</p>
+	<!-- #contact form  -->
+	<h2> contact form</h2>
 
-<form method="POST" action="/contactus">  
-	<label for="username">Username</label>   
-	<input type="text" name="username">   
-	<label for="password">Password</label>  
-	<input type="password" name="password"> 
-	<input type="submit"> 
+	<form method="POST" action="/contactus">  
+		<label for="username">Username</label>   
+		<input type="text" name="username">   
+		<label for="password">Password</label>  
+		<input type="password" name="password"> 
+		<input type="submit"> 
 	</form>
+	<br>
+	<!--email form  -->
+	<h2> email </h2>
 
-	
-<!--email form  -->
-
-<form action="/mail" method="POST">
-	Name:<br>
-	<input type="text" name="name"><br>
-	E-mail:<br>
-	<input type="text" name="mail"><br>
-	Comment:<br>
-	<input type="text" name="messagebody" size="50"><br><br>
-	<input type="submit" value="send"> 
-</form>
+	<form action="/mail" method="POST">
+		Name:<br>
+		<input type="text" name="name"><br>
+		E-mail:<br>
+		<input type="text" name="mail"><br>
+		Comment:<br>
+		<input type="text" name="messagebody" size="50"><br><br>
+		<input type="submit" value="send"> 
+	</form>
+</div>
+</body>
+</html>
