@@ -40,8 +40,3 @@ post '/contact' do
 	puts params.inspect
 	send_mail params[:contact, params], params[:messagebody]
 end 
-
-get '/donate' do
-	@title = Donate
-	erb :donate
-end
