@@ -10,14 +10,34 @@
 <script type="text/javascript" src="/script.js"></script>
 
 <nav id="menu">
-	<a href="/" class="menu">Home</a> | 
-	<a href="real" class="menu">The Real Deal</a> |
-		<a href="doublenationality" class="menu">Double Nationality</a>
-		<a href="ages" class="menu">All Ages</a> |
-	<a href="community" class="menu">The Community</a> |
-	<a href="about" class="menu">About Us</a> |
-	<a href="contact" class="menu">Contact Us</a> |
-	<a href="donate" class="menu">Donate</a>
+	<ul>
+		<li>
+			<a href="/" class="menu">Home</a> | 
+		</li>
+		<li>
+			<a href="real" class="menu">The Real Deal</a> |
+			<ul>
+				<li>
+					<a href="doublenationality" class="menu">Double Nationality</a> |
+				</li>
+				<li>
+					<a href="ages" class="menu">All Ages</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="community" class="menu">The Community</a> |
+		</li>
+		<li>
+			<a href="about" class="menu">About Us</a> |
+		</li>
+		<li>
+			<a href="contact" class="menu">Contact Us</a> |
+		</li>
+		<li>
+			<a href="donate" class="menu">Donate</a>
+		</li>
+	</ul>
 </nav>
 
 	<%= yield %>
