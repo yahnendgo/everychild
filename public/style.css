@@ -143,4 +143,5 @@ z-index: -10;
 #textbox {
 	height: 400px;
 	width: 500px;
+	text-align: center;
 }
