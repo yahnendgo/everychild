@@ -4,6 +4,7 @@
 	margin: 5px;
 	padding:0px;
 	border: 5px solid red;
+	background: black;
 }
 
 .sliderwrapper {
@@ -12,15 +13,50 @@
 
 #slider {
 	position: relative;
-	padding-top: 0px;
-	height: 400px;
-	width: 400px;
-	margin: auto;
-	list-style: none;
 	overflow: hidden;
+	height: 400px;
+}
+
+#slider li {
+	position: relative;
+	max-width: 100%;
+	float: left;
+	list-style: none;
 }
 
 .slidepic img {
 	height: 370px;
-	padding: 1em;
+	padding-bottom: 2em;
+	margin: auto;
 }
+
+#menu {
+	font-size: 25px;
+	text-align: center;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+	a.menu:link {
+		color: red;
+	}
+	a.menu:visited {
+		color: red;
+	}
+	a.menu:hover {
+		border: px solid black;
+		background-color: black;
+		color: white;
+		width: 500%;
+	}
+}
+
+
+
+/*.navbar {
+	border: 1px solid red;
+	background: red;
+	height: 5px;
+	font-size: 15;
+	list-style: none;
+}*/

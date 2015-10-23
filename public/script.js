@@ -8,7 +8,7 @@ function init(){
 	liItems = ul.children;
 	imageNumber = liItems.length;
 	imageWidth = liItems[0].children[0].offsetWidth;
-	ul.style.width = parseInt(imageWidth *imageNumber) + 'px';
+	ul.style.width = parseInt(imageWidth * imageNumber) + 'px';
 	slider(ul);
 }
 function slider(ul) {

@@ -7,35 +7,41 @@ get '/' do
 	erb :homepage
 end
 
-get '/about' do 
-	erb :about 
-end 
-
-get '/doublenationality' do 
-	erb :doublenationality
-end 
-
-get 'about' do
-	erb :about
-end 
-
-get 'real' do
+get '/real' do
+	@title = "Real Deal"
 	erb :real
 end
 
-get 'community' do
+get '/doublenationality' do 
+	@title = "Double Nationality"
+	erb :doublenationality
+end 
+
+get '/ages' do
+	@title = "All Ages"
+	erb :ages
+end 
+
+get '/community' do
+	@title = "Community"
 	erb :community
 end
 
-get 'mail' do 
-	erb :mail 
+get '/about' do 
+	@title = "About US"
+	erb :about 
+end 
+
+get '/contact' do 
+	erb :contact 
 end
 
-get 'donate' do
+post '/contact' do
+	puts params.inspect
+	send_mail params[:contact, params], params[:messagebody]
+end 
+
+get '/donate' do
+	@title = Donate
 	erb :donate
 end
-
-post 'mail' do
-	puts params.inspect
-	send_mail params[:mail, params], params[:messagebody]
-end 
